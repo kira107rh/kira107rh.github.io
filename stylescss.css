@@ -1,0 +1,78 @@
+@font-face{
+
+     font-family: 'mia'; 
+    src:url('font/MadimiOne-Regular.ttf') format('truetype');
+}
+.title{
+    font-family:mia,sans-serif;
+    font-size: 50px;
+   font-style: bold;
+    position:absolute;
+    color: white;
+    top: 200px;
+    left: 65%;
+}
+@keyframes animate{
+      0% {
+    opacity: 0;
+    /* Color inicial (por ejemplo, blanco) */
+    background-color: #ffffff;
+  }
+  100% {
+    opacity: 1;
+    /* Color deseado (por ejemplo, azul) */
+    background-color: #0000ff;
+  }
+}
+
+
+.images{
+    margin-bottom: 50px;
+    animation-name: animate;
+    animation-duration: 2s; /* Duración de la animación */
+    animation-delay: 0.5s; /* Retraso antes de iniciar */
+    display: inline-flex;    
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+   
+}
+body{
+    margin-top: -40px;
+   
+}
+.section1{
+  
+    font-family: mia;
+    padding: 20px;
+    font-size: 35px;
+    width: 700px;
+    border-radius:20px; 
+    border-color: #714CC2;
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 50px;
+}
+.d1 {
+    border-radius: 60px;
+    font-size: 50px;
+    font-family: mia;
+    background: #714CC2;
+    padding: 10px;
+    color: white;
+    text-decoration: none
+    
+}
+.d2 {
+    border-radius: 60px;
+    font-size: 50px;
+    font-family: mia;
+    background: #714CC2;
+    padding: 10px;
+    color: white;
+    text-decoration: none
+    
+}
+.d1:hover{
+    background:#2AD191;
+ 
+}
