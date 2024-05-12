@@ -5,12 +5,15 @@
 }
 .title{
     font-family:mia,sans-serif;
-    font-size: 50px;
+    font-size:400%;
    font-style: bold;
+    margin-right: 40px;
     position:absolute;
+    width: 100px;
     color: white;
-    top: 200px;
+    top: 5%;
     left: 65%;
+      text-shadow: 0px 0px 20px #000;
 }
 @keyframes animate{
       0% {
@@ -27,6 +30,7 @@
 
 
 .images{
+
     margin-bottom: 50px;
     animation-name: animate;
     animation-duration: 2s; /* Duración de la animación */
@@ -40,39 +44,70 @@ body{
     margin-top: -40px;
    
 }
+
 .section1{
   
     font-family: mia;
     padding: 20px;
     font-size: 35px;
-    width: 700px;
+    width: 55%;
     border-radius:20px; 
     border-color: #714CC2;
     border-style: solid;
     border-width: 2px;
     margin-bottom: 50px;
 }
-.d1 {
+
+.downloadoption{
+    font-family: mia;
+     font-size: 35px;
+        position: relative;
+    width: 650px;
+    padding: 50px;
+    left: 25% ;
+}
+
+
+.downOption1{
+
+    margin-bottom: 100px;
+}
+.downOption2{
+   
+   
+}
+.downOption1.p{
+   margin-right: 100px;
+}
+.d1{
+   margin-left:150px;
     border-radius: 60px;
     font-size: 50px;
     font-family: mia;
     background: #714CC2;
     padding: 10px;
     color: white;
-    text-decoration: none
+    text-decoration: none;
+   
     
 }
 .d2 {
+    margin-left:150px;
     border-radius: 60px;
     font-size: 50px;
     font-family: mia;
     background: #714CC2;
     padding: 10px;
     color: white;
-    text-decoration: none
-    
+    text-decoration: none;
+   
 }
 .d1:hover{
     background:#2AD191;
  
 }
+.d2:hover{
+    background:#2AD191;
+ 
+}
+
