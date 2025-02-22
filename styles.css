@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fuentes.ttf') format('truetype');
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'CustomFont', sans-serif;
+}
